@@ -14,6 +14,7 @@
     />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"
@@ -22,6 +23,7 @@
       defer
       src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"
     ></script>
+    <script defer src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script defer src="./js/main.js"></script>
   </head>
   <body>
@@ -259,40 +261,60 @@
     <section class="news">
       <div class="wrapper-center">
         <h2 class="news__title">Новости по теме</h2>
-        <div class="news__block">
-          <div class="news__article">
-            <div class="news__date">31 марта 2020</div>
-            <div class="news__text">
-              <strong>
-                «Морбиуса» и «Охотников <br />за привидениями» перенесли на
-                следующий год
-              </strong>
+
+        <div class="news__container">
+          <div class="news__swiper">
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="news__article">
+                    <div class="news__date">31 марта 2020</div>
+                    <div class="news__text">
+                      <strong>
+                        «Морбиуса» и «Охотников <br />за привидениями» перенесли
+                        на следующий год
+                      </strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="news__article">
+                    <div class="news__date">9 декабря 2019</div>
+                    <div class="news__text">
+                      <strong>
+                        Наследники: Вышел дебютный трейлер новых «Охотников за
+                        привидениями»
+                      </strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="news__article">
+                    <div class="news__date">11 ноября 2019</div>
+                    <div class="news__text">
+                      <strong>
+                        Новые «Охотники за привидениями» обзавелись названием
+                      </strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="news__article">
+                    <div class="news__date">19 октября 2019</div>
+                    <div class="news__text">
+                      <strong>
+                        Завершились съёмки новых «Охотников за привидениями»
+                      </strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="news__article">
-            <div class="news__date">9 декабря 2019</div>
-            <div class="news__text">
-              <strong>
-                Наследники: Вышел дебютный трейлер новых «Охотников за
-                привидениями»
-              </strong>
-            </div>
-          </div>
-          <div class="news__article">
-            <div class="news__date">11 ноября 2019</div>
-            <div class="news__text">
-              <strong>
-                Новые «Охотники за привидениями» обзавелись названием
-              </strong>
-            </div>
-          </div>
-          <div class="news__article">
-            <div class="news__date">19 октября 2019</div>
-            <div class="news__text">
-              <strong>
-                Завершились съёмки новых «Охотников за привидениями»
-              </strong>
-            </div>
+          <div class="news__next">
+            &#10139;
           </div>
         </div>
       </div>
