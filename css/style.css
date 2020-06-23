@@ -197,14 +197,18 @@ body {
   margin-right: 30px;
   color: #a5a5a5;
   font-weight: 400;
+  cursor: pointer;
 }
-.people__title__active {
+.people__title-active {
   font-weight: 900;
   color: #363636;
 }
-.actors {
-  display: flex;
+.people__block {
+  display: none;
   flex-wrap: wrap;
+}
+.people__block.active {
+  display: flex;
 }
 .person {
   display: flex;
